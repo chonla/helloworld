@@ -34,3 +34,4 @@ jobs:
                   binary_name: "helloworld"
                   extra_files: README.md
                   ldflags: -X "main.Version=${{env.RELEASE_TAG}}"
+                  sha256sum: true

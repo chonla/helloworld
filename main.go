@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-var Version string = "0.0.0"
+var Version string = "development"
 
 func main() {
 	fmt.Printf("hello, world version %s\n", Version)

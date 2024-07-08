@@ -1,3 +1,3 @@
-module github.com/chonla/helloworld
+module helloworld
 
 go 1.22.4

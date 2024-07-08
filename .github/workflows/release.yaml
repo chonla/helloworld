@@ -31,4 +31,4 @@ jobs:
                   project_path: "./"
                   binary_name: "helloworld"
                   extra_files: README.md
-                  ldflags: -X "main.Version=${{ env.RELEASE_TAG }}""
+                  ldflags: -X "github.com/chonla/helloworld/main.Version=${{env.RELEASE_TAG}}"

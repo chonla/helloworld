@@ -31,4 +31,4 @@ jobs:
                   project_path: "./"
                   binary_name: "helloworld"
                   extra_files: README.md
-                  build_flags: -X "main.Version=${{ inputs.release_tag }}""
+                  ldflags: -X "main.Version=${{ env.RELEASE_TAG }}""
